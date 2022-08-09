@@ -1,0 +1,22 @@
+{
+  "name": "advice-generator-app",
+  "version": "1.0.0",
+  "description": "advice generator app",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginabeki/-advice-generator-app-.git"
+  },
+  "author": "Gina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginabeki/-advice-generator-app-/issues"
+  },
+  "homepage": "https://github.com/ginabeki/-advice-generator-app-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
