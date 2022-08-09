@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Space+Grotesk:wght@500&display=swap');
+$color-light-cyan: hsl(193, 38%, 86%);
+$color-neon-green: hsl(150, 100%, 66%);
+$color-grayish-blue: hsl(217, 19%, 38%);
+$dark-grayish-blue: hsl(217, 19%, 24%);
+$color-dark-blue: hsl(218, 23%, 16%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    font-size: 1rem;
+    background-color: $color-dark-blue;
+    height: 100%;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div#wrap-text {
+    background-color: $dark-grayish-blue;
+    position: relative;
+    width: 25rem;
+    border-radius: 8px;
+    padding: 3rem 1rem;
+    margin-top: 17rem;
+    
+}
+h1 {
+    font-size: 0.75rem;
+    color: $color-neon-green;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.2rem;
+    
+   
+}
+p#text {
+    text-align: center;
+    color: $color-light-cyan;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.3rem;
+    margin-bottom: 20px;
+
+    
+}
+p#text::before {
+    content: open-quote;
+}
+p#text::after {
+    content: close-quote;
+}
+
+div.pattern {
+    content: url(../images/pattern-divider-mobile.svg);
+    margin: 1rem auto;
+    
+}
+.wrapper-btn {
+    text-align: center;
+   
+}
+button#button {
+    position: absolute;
+    cursor: pointer;
+    left: 43%;
+    bottom: -11%;
+    border-radius: 50%;
+    background-color: $color-neon-green;
+    border: 1px solid $color-neon-green;
+    height: 60px;
+    width: 60px;
+    margin-top: auto;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+
+}
+button#button:hover {
+    box-shadow: 0px 0px 25px 0px $color-neon-green;
+    transform: rotate(180deg);
+}
+.attribution {
+    text-align: center;
+    color: $color-light-cyan;
+    margin-top: 20rem;
+    font-size: 0.9rem;
+}
+.attribution a {
+    text-decoration: none;
+    color: $color-neon-green;
+}
