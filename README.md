@@ -8,7 +8,7 @@
 ### Links
 
 - Solution URL: [Url](https://github.com/ginabeki/advice-generator-app)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://awesome-advice-generator.netlify.app/)
 
 ## My process
 
