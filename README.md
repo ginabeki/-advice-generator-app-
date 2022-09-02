@@ -4,7 +4,6 @@
 
 ![](./screenshot.jpg)
 
-
 ### Links
 
 - Solution URL: [Url](https://github.com/ginabeki/advice-generator-app)
@@ -22,7 +21,4 @@
 
 ## Author
 
-- [Gina Beki](https://www.frontendmentor.io/profile/yourusername)
-
-
-
+- [Gina Beki](https://github.com/ginabeki)
